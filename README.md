@@ -4,20 +4,20 @@ Prerequisites and Installation:
 •	List of all the dependencies: 
 1.	In this project first we install Django for backend
 
-	pip install Django
+        pip install Django
 
 2.	Setup MONGODB database install MONGODB Compass GUI
 3.	For connection between Django and MONGODB we uses PyMongo. PyMongo is very efficient for writing JSON data to MongoDB and allows the use of MongoDB queries in the Python code itself. We can retrieve data in a dictionary like syntax using PyMongo.
 
-	pip install pymongo[snappy,gssapi,srv,tls]
+        pip install pymongo[snappy,gssapi,srv,tls]
 
 4.	Also, install dnspython for using mongodb+srv://: 
 
-	pip install dnspython
+	      pip install dnspython
                   
 5.	Install Djongo to connect MONGODB with Django:
 
-	pip install djongo
+        pip install djongo
 
 and add this into setting.py in project folder
 DATABASES = {
